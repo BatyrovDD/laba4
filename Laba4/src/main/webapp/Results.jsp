@@ -66,9 +66,9 @@ color: #FFFFFF;
 <p><strong>Второе слагаемое:</strong> ${second_result}</p>
 <p><strong>Третье слагаемое:</strong> ${third_result}</p>
 <p><strong>Результат:</strong> ${result}</p>
-<form action="${pageContext.request.contextPath}/Form.jsp">
-    <input type="submit" name="sign" value="Назад">
-<p>_</p>
+<br>
+       <br>
+       <br>
     </form>
    <div id="sidebar">
     <p>Справочная информация</p>
