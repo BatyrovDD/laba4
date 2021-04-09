@@ -60,6 +60,7 @@ color: #FFFFFF;
   <div id="container">
    <div id="header">Результат расчёта объёма прямоугольного параллелепипеда</div>
    <div id="content">
+       <meta charset="UTF-8">
 <h1>Результат сложения</h1>
 <h2>Ваши введеные данные:</h2>
 <p><strong>Первое слагаемое:</strong> ${first_result}</p>
