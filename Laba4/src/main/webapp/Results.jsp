@@ -62,9 +62,9 @@ color: #FFFFFF;
    <div id="content">
 <h1>Результат сложения</h1>
 <h2>Ваши введеные данные:</h2>
-<p><strong>Первое слагаемое:</strong> ${first_calc}</p>
-<p><strong>Второе слагаемое:</strong> ${second_calc}</p>
-<p><strong>Третье слагаемое:</strong> ${third_calc}</p>
+<p><strong>Первое слагаемое:</strong> ${first_try}</p>
+<p><strong>Второе слагаемое:</strong> ${second_try}</p>
+<p><strong>Третье слагаемое:</strong> ${third_try}</p>
 <p><strong>Результат:</strong> ${result}</p>
 <br>
        <br>
