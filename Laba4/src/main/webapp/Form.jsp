@@ -61,48 +61,32 @@ color: #FFFFFF;
    <div id="header">Калькулятор - Объём прямоугольного параллелепипеда</div>
    <div id="content">
 <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h3> </h3>
+<br>
     </form>
      <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <label for="first">Первое слагаемое:</label>
         <input type="text" name="first" id="first" value="${first}">
-<label for="first">куб. см</label>
-    </form>
-     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-        <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h3> </h3>
-    </form>
-        <label for="second">Второе  слагаемое: </label>
+<label for="first">куб. см<br><br></label>
+   <label for="second">Второе  слагаемое: </label>
         <input type="text" name="second" id="second" value="${second}">
-<label for="first">куб. см</label>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h3> </h3>
-    </form>
-     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
+<label for="first">куб. см<br><br></label>
+        
 	<label for="third">Третье   слагаемое: </label>
         <input type="text" name="third" id="third" value="${third}">
-<label for="first">куб. см</label>
-    </form>
-
-     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-        
-        
-<h3> </h3>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
+<label for="first">куб. см<br><br></label>
+<br>
         <input type="submit" name="sign" value="Рассчитать">
     </form>
 <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-	   <br>
-    </form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    
    <div id="sidebar">
     <p>Справочная информация</p>
     <p>Единицы измерения объёма</p>
