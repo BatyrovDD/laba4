@@ -86,8 +86,5 @@ color: #FFFFFF;
    <div id="footer">&copy; Выполнили студенты группы ПИ-223:</div>
    <div id="footer">Батыров Д., Мингареев Р., Насыров А. и Погудина М.</div>
   </div>
-    <input type="submit" name="sign" value="Назад">
-    </form>
-
 </body>
 </html>
