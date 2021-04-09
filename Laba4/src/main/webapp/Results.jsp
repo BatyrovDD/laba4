@@ -67,6 +67,9 @@ color: #FFFFFF;
 <p><strong>Второе слагаемое:</strong> ${second}</p>
 <p><strong>Третье слагаемое:</strong> ${third}</p>
 <p><strong>Результат:</strong> {result}</p>
+       
+<form action="${pageContext.request.contextPath}/Form.jsp">
+       
 <br>
        <br>
        <br>
