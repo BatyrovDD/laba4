@@ -2,7 +2,7 @@
 <html>
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Калькулятор - Объём прямоугольного параллелепипеда</title>
+  <title>Результат расчёта объёма прямоугольного параллелепипеда</title>
  
    
   <style type="text/css">
@@ -56,55 +56,17 @@ color: #FFFFFF;
  </head>
  <body>
   <div id="container">
-   <div id="header">Калькулятор - Объём прямоугольного параллелепипеда</div>
+   <div id="header">Результат расчёта объёма прямоугольного параллелепипеда</div>
    <div id="content">
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h3> </h3>
-    </form>
-     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-        <label for="first">Первое слагаемое:</label>
-        <input type="text" name="first" id="first" value="${first}">
-<label for="first">куб. см</label>
-    </form>
-     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-        <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h3> </h3>
-    </form>
-        <label for="second">Второе  слагаемое: </label>
-        <input type="text" name="second" id="second" value="${second}">
-<label for="first">куб. см</label>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h3> </h3>
-    </form>
-     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-	<label for="third">Третье   слагаемое: </label>
-        <input type="text" name="third" id="third" value="${third}">
-<label for="first">куб. см</label>
-    </form>
-
-     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-        
-        
-<h3> </h3>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-        <input type="submit" name="sign" value="Рассчитать">
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h3>.</h3>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h4>.</h4>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h5>.</h5>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h5>.</h5>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h5>.</h5>
+<h1>Результат сложения</h1>
+<h2>Ваши введеные данные:</h2>
+<p><strong>Первое слагаемое:</strong> ${first_result}</p>
+<p><strong>Второе слагаемое:</strong> ${second_result}</p>
+<p><strong>Третье слагаемое:</strong> ${third_result}</p>
+<p><strong>Результат:</strong> ${result}</p>
+<form action="${pageContext.request.contextPath}/Form.jsp">
+    <input type="submit" name="sign" value="Назад">
+<p>_</p>
     </form>
    <div id="sidebar">
     <p>Справочная информация</p>
@@ -118,4 +80,3 @@ color: #FFFFFF;
    <div id="footer">Батыров Д., Мингареев Р., Насыров А. и Погудина М.</div>
   </div>
  </body>
-</html>
