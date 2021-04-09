@@ -63,10 +63,10 @@ color: #FFFFFF;
        <meta charset="UTF-8">
 <h1>Результат сложения</h1>
 <h2>Ваши введеные данные:</h2>
-<p><strong>Первое слагаемое:</strong> ${first}</p>
-<p><strong>Второе слагаемое:</strong> ${second}</p>
-<p><strong>Третье слагаемое:</strong> ${third}</p>
-<p><strong>Результат:</strong> {result}</p>
+<p><strong>Первое слагаемое:</strong> ${first_result}</p>
+<p><strong>Второе слагаемое:</strong> ${second_result}</p>
+<p><strong>Третье слагаемое:</strong> ${third_result}</p>
+<p><strong>Результат:</strong> ${result}</p>
        
 <form action="${pageContext.request.contextPath}/Form.jsp">
        
@@ -85,4 +85,8 @@ color: #FFFFFF;
    <div id="footer">&copy; Выполнили студенты группы ПИ-223:</div>
    <div id="footer">Батыров Д., Мингареев Р., Насыров А. и Погудина М.</div>
   </div>
- </body>
+    <input type="submit" name="sign" value="Назад">
+    </form>
+
+</body>
+</html>
