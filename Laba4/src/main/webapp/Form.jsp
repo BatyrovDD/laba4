@@ -93,20 +93,15 @@ color: #FFFFFF;
 <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <input type="submit" name="sign" value="Рассчитать">
     </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h3>.</h3>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h4>.</h4>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h5>.</h5>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h5>.</h5>
-    </form>
-<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-<h5>.</h5>
+<br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
+	   <br>
     </form>
    <div id="sidebar">
     <p>Справочная информация</p>
