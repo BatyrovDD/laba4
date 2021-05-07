@@ -23,7 +23,7 @@ public class Calc extends HttpServlet {
 		private final String first_calc;
 		private final String second_calc;
 		private final String third_calc;
-		private int result;
+		private float result;
 						
 		private RequestCalc (String first, String second, String third) {
 			this.first_calc = first;
