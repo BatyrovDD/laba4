@@ -42,13 +42,13 @@ public class Calc extends HttpServlet {
 			request.setAttribute("first_result", first_calc);
 			request.setAttribute("second_result", second_calc);
 			request.setAttribute("third_result", third_calc);
-			double first_try;
-			double second_try;
-			double third_try;
+			float first_try;
+			float second_try;
+			float third_try;
 			try { 
-			first_try=Double.parseDouble(first_calc);
-			second_try=Double.parseDouble(second_calc);
-			third_try=Double.parseDouble(third_calc);
+			first_try=Float.parseFloat(first_calc);
+			second_try=Float.parseFloat(second_calc);
+			third_try=Float.parseFloat(third_calc);
 			}
 			catch (NumberFormatException e) {
 				first_try=0;
