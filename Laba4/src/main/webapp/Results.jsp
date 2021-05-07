@@ -63,10 +63,10 @@ color: #FFFFFF;
        <meta charset="UTF-8">
 <h1>Результат вычисления</h1>
 <h2>Ваши введеные данные:</h2>
-<p><strong>Первое слагаемое:</strong> ${first_result}</p>
-<p><strong>Второе слагаемое:</strong> ${second_result}</p>
-<p><strong>Третье слагаемое:</strong> ${third_result}</p>
-<p><strong>Результат:</strong> ${result}</p>
+<p><strong>Первое слагаемое:</strong> ${first_result}куб. см</p>
+<p><strong>Второе слагаемое:</strong> ${second_result}куб. см</p>
+<p><strong>Третье слагаемое:</strong> ${third_result}куб. см</p>
+<p><strong>Результат:</strong> ${result}куб. см</p>
        <form action="${pageContext.request.contextPath}/Form.jsp">
     <input type="submit" name="sign" value="Назад">
     </form>
