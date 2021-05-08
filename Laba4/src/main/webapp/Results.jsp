@@ -63,9 +63,9 @@ color: #FFFFFF;
        <meta charset="UTF-8">
 <h1>Результат вычисления</h1>
 <h2>Ваши введеные данные:</h2>
-<p><strong>Первое слагаемое:</strong> ${first_result}куб. см</p>
-<p><strong>Второе слагаемое:</strong> ${second_result}куб. см</p>
-<p><strong>Третье слагаемое:</strong> ${third_result}куб. см</p>
+<p><strong>Первое слагаемое:</strong> ${first_result} куб.см</p>
+<p><strong>Второе слагаемое:</strong> ${second_result} куб.см</p>
+<p><strong>Третье слагаемое:</strong> ${third_result} куб.см</p>
 <p><strong>Результат:</strong> ${result}куб. см</p>
        <form action="${pageContext.request.contextPath}/Form.jsp">
     <input type="submit" name="sign" value="Назад">
@@ -78,9 +78,9 @@ color: #FFFFFF;
    <div id="sidebar">
     <p>Справочная информация</p>
     <p>Единицы измерения объёма</p>
-    <p>1 куб. см = 1000 куб. мм</p>
-    <p>1 куб. дм = 1000 куб. см</p>
-    <p>1 куб. м = 1000 куб. дм</p>
+    <p>1 куб. см = 1000 куб.мм</p>
+    <p>1 куб. дм = 1000 куб.см</p>
+    <p>1 куб. м = 1000 куб.дм</p>
     <p>1 куб. км = 1000000000 куб. м</p>
    </div>
    <div id="footer">&copy; Выполнили студенты группы ПИ-223:</div>
