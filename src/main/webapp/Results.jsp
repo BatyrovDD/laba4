@@ -10,7 +10,7 @@
   <style type="text/css">
    body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
-    background: url(https://bitfinding.com/blog/wp-content/uploads/2019/04/cropped-Logo-Bitfinding-color.png); /* Цвет фона */
+    background: url(https://sun9-31.userapi.com/impg/3N5gqmAdvdj0dlE03FHGvKiMvAopuKGSn2RHbQ/3ZS4NK2-Jso.jpg?size=400x400&quality=96&sign=4bc885748b4894057272f31337fc1957&type=album); /* Цвет фона */
 background-position: center center;
     
 margin: 0; /* Убираем отступы */
