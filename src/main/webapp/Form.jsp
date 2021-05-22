@@ -10,7 +10,7 @@
   <style type="text/css">
    body {
     font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
-    background: url(https://bitfinding.com/blog/wp-content/uploads/2019/04/cropped-Logo-Bitfinding-color.png); /* Цвет фона */
+    background: url(https://sun9-72.userapi.com/impg/WL_1A6VLshhzUPx8TbnHD7WMHt8AGPsc5jcV8Q/BSBoSgWtKEg.jpg?size=400x400&quality=96&sign=8eda7732e7ce618193aa8b1c7e329dd6&type=album); /* Цвет фона */
 background-position: center center;
     
 margin: 0; /* Убираем отступы */
@@ -58,7 +58,7 @@ color: #FFFFFF;
  </head>
  <body>
   <div id="container">
-   <div id="header">Калькулятор - Объём прямоугольного параллелепипеда (main - BatyrovDD)</div>
+   <div id="header">Калькулятор - Объём прямоугольного параллелепипеда (mingareev - Mingareev)</div>
    <div id="content">
 <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
 <br>
