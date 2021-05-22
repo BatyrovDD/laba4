@@ -64,7 +64,7 @@ color: #FFFFFF;
 <br>
     </form> 
      <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-        <label for="first">1 слагаемое:</label>
+        <label for="first">Первое слагаемое:</label>
         <input type="text" name="first" id="first" value="${first}">
 <label for="first">куб. см<br><br></label>
    <label for="second">2 слагаемое: </label>
