@@ -58,7 +58,7 @@ color: #FFFFFF;
  </head>
  <body>
   <div id="container">
-   <div id="header">Калькулятор - Объём прямоугольного параллелепипеда</div>
+   <div id="header">Калькулятор - Объём прямоугольного параллелепипеда (main - BatyrovDD)</div>
    <div id="content">
 <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
 <br>
@@ -66,14 +66,14 @@ color: #FFFFFF;
      <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <label for="first">Первое слагаемое:</label>
         <input type="text" name="first" id="first" value="${first}">
-<label for="first">куб. см<br><br></label>
+<label for="first">куб. мм<br><br></label>
    <label for="second">Второе слагаемое: </label>
         <input type="text" name="second" id="second" value="${second}">
-<label for="first">куб. см<br><br></label>
+<label for="first">куб. мм<br><br></label>
         
 	<label for="third">Третье слагаемое: </label>
         <input type="text" name="third" id="third" value="${third}">
-<label for="first">куб. см<br><br></label>
+<label for="first">куб. мм<br><br></label>
 <br>
         <input type="submit" name="sign" value="Рассчитать">
     </form>

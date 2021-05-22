@@ -7,7 +7,6 @@ app:
 	mingareev: branch-mingareev
 	nasyrov: branch-nasyrov
 	pogudina: branch-pogudina
-	batyrov: branch-batyrov
 language: java
 skript:
 - mvn clean package
