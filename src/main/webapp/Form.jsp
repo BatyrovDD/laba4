@@ -67,11 +67,11 @@ color: #FFFFFF;
         <label for="first">Первое слагаемое:</label>
         <input type="text" name="first" id="first" value="${first}">
 <label for="first">куб. см<br><br></label>
-   <label for="second">2 слагаемое: </label>
+   <label for="second">Второе слагаемое: </label>
         <input type="text" name="second" id="second" value="${second}">
 <label for="first">куб. см<br><br></label>
         
-	<label for="third">3   слагаемое: </label>
+	<label for="third">Третье слагаемое: </label>
         <input type="text" name="third" id="third" value="${third}">
 <label for="first">куб. см<br><br></label>
 <br>
