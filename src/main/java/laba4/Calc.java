@@ -16,9 +16,7 @@ public class Calc extends HttpServlet {
 		Calc.setAsRequestAttributesAndCalculate(request);
 		 
 		request.getRequestDispatcher("/Results.jsp").forward(request, response);
-		
 	}
-	
 	private static class RequestCalc {
 		private final String first_calc;
 		private final String second_calc;
